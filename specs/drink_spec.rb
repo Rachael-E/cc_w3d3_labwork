@@ -7,7 +7,7 @@ class DrinkTest < Minitest::Test
     @drink1 = Drink.new("Gin", 5)
     @drink2 = Drink.new("Beer", 3)
     @drink3 = Drink.new("Champagne", 10)
-    @drink4 = Drink.new("Lemonade", 1)
+    @drink4 = Drink.new("Shire Lemonade", 1)
   end
 
   def test_drink_exists
